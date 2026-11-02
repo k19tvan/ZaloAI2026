@@ -1,0 +1,16 @@
+[project]
+name = "datamate-task2"
+version = "0.1.0"
+description = "Baseline for Zalo AI Challenge 2026 DataMate (track 2): Vietnamese QA over messy business tables"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "openpyxl>=3.1",
+    "openai>=1.54",
+    "python-dotenv>=1.0",
+    "tqdm>=4.66",
+]
+
+# Scripts are run in place (`uv run python inference.py`); nothing to build or install.
+[tool.uv]
+package = false
